@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.menu{
+    margin-top: 5.3px;
+}
+
+.bx-menu{
+    font-size: 30px;
+}
+
+nav{
+    background-color: #2C3E50;
+}
+
+#hover:hover{
+    color:#1abc9c !important;
+}
+
+.boot{
+    font-size: 60px;
+}
+
+.port{
+    line-height: 2rem;
+    color: #2c3e50;
+    font-size: 47px;
+}
+
+#cabincontainer{
+    position: relative;
+}
+#cabin{
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1abc9c;
+    transition: 0.3s ease-in-out;
+}
+#cab{
+    font-size: 100px;
+}
+#cabincontainer:hover #cabin{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.about{
+    font-size: 50px;
+}
+
+.para{
+    font-size: 1.125rem;
+}
+
+.free{
+    margin-top: 30px;
+}
+
+footer{
+    background-color: #2C3E50;
+}
+
+#lead{
+    color: #1abc9c;
+}
+
+#lead:hover{
+    color: #08a082;
+}
+
+#hover:active{
+    background-color: #1abc9c;
+    color: white !important;
+}
+#mml{
+    font-size: 1.5rem;
+}
+#name:focus~#mml,#name:not(:placeholder-shown)~#mml{
+    font-size: 1rem;
+}
+#contactme{
+    color: #2c3e50;
+    font-size: 47px;
+}
+
+@media only screen and (max-width:375px) {
+    .bt{
+        width: 400px;
+    }
+
+    .boot{
+        font-size: 30px;
+    }
+
+    .sty{
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .port{
+        margin-left: 50px;
+    }
+
+    .im{
+        width: 400px;
+    }
+
+    .k{
+        margin-left: 50px;
+    }
+    
+    .about{
+        width: 400px;
+    }
+
+    .con{
+        margin-left: 30px;
+    }
+    #contactme{
+        font-size: 2.5rem;
+    }
+
+    .foot{
+        width: 400px;
+    }
+
+    .copy{
+        width: 400px;
+    }
+
+    .k{
+        margin-left: 80px;
+    }
+}
+
+
+
+
+
+
+ 
